@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src ="../scripts/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Zadanie_2/zd_2.css">
+    
+
+</head>
+<header>
+    <h1 class="ColorElement">
+        Эта форма
+    </h1>
+</header>
+
+<body>
+    <form name="Kva">
+    <div class="borderElement grid-contoiner">
+        <div class="d1 color">     
+        </div>
+        <div class="d2"></div>
+        <div class="d3">
+    </div>
+    <div class="d4"></div>
+    <div class="d5">
+        <p><b>Как Вам удобно получить ответ:</b></p>
+        <p><input name="answear_1" type="radio" value="email"> по почте</p>
+        <p><input name="answear_1" type="radio" value="phone"> по телефону</p>
+        <p><input name="answear_1" type="radio" value="notAnswear" > не нужно отвечать</p>
+    </div>
+    <div class="d6">
+        <p><b>Укажите тему вопроса</b></p>
+        <select class="borderBox Size_text">
+            <option name="theme" value="job"> Работа</option>
+            <option name="theme" value="study">Учёба</option>
+            <option name="theme" value="ch">Заказы</option>
+          </select>
+    </div>
+    <div class="d7">
+            <p><b>И еще один вопрос?</b></p>
+            <p><input name="answear_2" type="checkbox" value="yes"> может так</p>
+            <p><input name="answear_22" type="checkbox" value="not"> или не так</p>
+            <p><input name="answear_23" type="checkbox" value="maybe"> а может иначе</p>
+    </div>
+    <div class="d8"> 
+            <p><label  for="name">Ваше имя</label> <input name="name" class="borderBox Size_text button"  type="name" id="name"></p> <br>
+            <p><label for="email">Адрес почты</label> <input name="email" class="borderBox Size_text button" type="email" id="email"> </p><br>
+            <p><label for="phone">Tелефон</label> <input name="num" class="borderBox Size_text button" type="num_fon" id="num_fon"> </p><br>
+    </div>
+    <div class="d9">
+        <p><label for="вопрос">Ваш вопрос</label> <input name="question" class="Size_form" type="question" id="question"></p>
+    </div>
+    <div class="d10">
+        <p><input name="otp" class="borderBox my_button button_pos"  type="submit" value="Отправить" onclick="handleForm()"></p>
+    </div>
+    </div>
+</form>
+</body>
+
+<footer>
+    <h4 class="ColorElement">
+    Веб-технологии, задание 2
+    </h4>
+</footer>
+</html>
